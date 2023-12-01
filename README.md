@@ -3,6 +3,11 @@ Denoising Diffusion Probabilistic Models Implementation in Pytorch
 
 This repository implements DDPM with training and sampling methods of DDPM and unet architecture mimicking the stable diffusion unet used in diffusers library from huggingface from scratch.
 
+## Sample Output by trained DDPM on Mnist
+
+<img src="https://github.com/explainingai-code/DDPM-Pytorch/assets/144267687/a8095bc2-a525-40ad-a0ae-ec53da4145b5" width="300">
+
+
 ## Data preparation
 For setting up the mnist dataset:
 
@@ -32,12 +37,5 @@ During training of DDPM the following output will be saved
 
 During sampling the following output will be saved
 * Sampled image grid for all timesteps in ```task_name/samples/*.png``` 
-
-
-## Sample Output for DDPM on Mnist
-
-
-
-
 
 
