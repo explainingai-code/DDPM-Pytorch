@@ -21,7 +21,7 @@ Follow - https://github.com/explainingai-code/Pytorch-VAE#data-preparation
 ## Training on your own images
 For this one would need to make the following changes
 * Put the image files in a folder created within the repo root (example: data/images/*.png ). The data folder should only have one directory 'images'
-* Comment https://github.com/explainingai-code/DDPM-Pytorch/blob/main/dataset/mnist_dataset.py#L42 as this is only required for mnist
+* Comment https://github.com/explainingai-code/DDPM-Pytorch/blob/main/dataset/mnist_dataset.py#L42 as this is only valid for mnist
 * Update the expected number of channels here and image dimensions(assumed square images) here - https://github.com/explainingai-code/DDPM-Pytorch/blob/main/config/default.yaml#L10
 * Change the config path here to point to 'data' directory('data' and not 'data/images') - https://github.com/explainingai-code/DDPM-Pytorch/blob/main/config/default.yaml#L2
 * Right now the code has been written for picking up png files in mnist data directory format, so I assume there are subdirectories inside the directory mentioned in config and these sub-directories have .png files. 
