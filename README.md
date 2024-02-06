@@ -5,13 +5,12 @@ This repository implements [DDPM](https://arxiv.org/abs/2006.11239) with trainin
 
 ## DDPM Explanation Videos
 <a href="https://www.youtube.com/watch?v=H45lF4sUgiE">
-   <img alt="DDPM Math Video" src="https://github.com/explainingai-code/DDPM-Pytorch/assets/144267687/6883b6db-f152-464b-ac59-f5527f62c5c9"
+   <img alt="DDPM Math Video" src="https://github.com/explainingai-code/DDPM-Pytorch/assets/144267687/27627399-ca3e-4491-a3f3-34d36e05b9cb"
    width="300">
 </a><a href="https://www.youtube.com/watch?v=vu6eKteJWew">
-   <img alt="DDPM Implementation Video" src="https://github.com/explainingai-code/DDPM-Pytorch/assets/144267687/ba509bde-5ad6-41d8-ac72-1469ed104f56"
+   <img alt="DDPM Implementation Video" src="https://github.com/explainingai-code/DDPM-Pytorch/assets/144267687/ebcf6a07-c84a-4219-bb2a-31fc7d60cffa"
    width="300">
 </a>
-
 
 ## Sample Output by trained DDPM on Mnist
 
